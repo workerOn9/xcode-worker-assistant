@@ -638,7 +638,7 @@ struct SettingsView: View {
             }
             
             Section("支持") {
-                Link("GitHub 仓库", destination: URL(string: "https://github.com")!)
+                Link("GitHub 仓库", destination: URL(string: "https://github.com/workerOn9/xcode-worker-assistant")!)
             }
         }
         .formStyle(.grouped)
