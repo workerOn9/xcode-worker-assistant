@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		7E7DCEAE2F2EDE7500EE70E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7E7DCE962F2EDE7400EE70E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E7DCE9D2F2EDE7400EE70E6;
-			remoteInfo = "xcode-worker-assistant";
-		};
-		7E7DCEB82F2EDE7500EE70E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7E7DCE962F2EDE7400EE70E6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7E7DCE9D2F2EDE7400EE70E6;
-			remoteInfo = "xcode-worker-assistant";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7E7DCE9E2F2EDE7400EE70E6 /* xcode-worker-assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xcode-worker-assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E7DCEAD2F2EDE7500EE70E6 /* xcode-worker-assistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-worker-assistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E7DCEB72F2EDE7500EE70E6 /* xcode-worker-assistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "xcode-worker-assistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "xcode-worker-assistant";
 			sourceTree = "<group>";
 		};
-		7E7DCEB02F2EDE7500EE70E6 /* xcode-worker-assistantTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "xcode-worker-assistantTests";
-			sourceTree = "<group>";
-		};
-		7E7DCEBA2F2EDE7500EE70E6 /* xcode-worker-assistantUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "xcode-worker-assistantUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7E7DCE9B2F2EDE7400EE70E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7DCEAA2F2EDE7500EE70E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7DCEB42F2EDE7500EE70E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				7E7DCEA02F2EDE7400EE70E6 /* xcode-worker-assistant */,
-				7E7DCEB02F2EDE7500EE70E6 /* xcode-worker-assistantTests */,
-				7E7DCEBA2F2EDE7500EE70E6 /* xcode-worker-assistantUITests */,
 				7E7DCE9F2F2EDE7400EE70E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				7E7DCE9E2F2EDE7400EE70E6 /* xcode-worker-assistant.app */,
-				7E7DCEAD2F2EDE7500EE70E6 /* xcode-worker-assistantTests.xctest */,
-				7E7DCEB72F2EDE7500EE70E6 /* xcode-worker-assistantUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +70,6 @@
 			productReference = 7E7DCE9E2F2EDE7400EE70E6 /* xcode-worker-assistant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E7DCEAC2F2EDE7500EE70E6 /* xcode-worker-assistantTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E7DCEC42F2EDE7500EE70E6 /* Build configuration list for PBXNativeTarget "xcode-worker-assistantTests" */;
-			buildPhases = (
-				7E7DCEA92F2EDE7500EE70E6 /* Sources */,
-				7E7DCEAA2F2EDE7500EE70E6 /* Frameworks */,
-				7E7DCEAB2F2EDE7500EE70E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E7DCEAF2F2EDE7500EE70E6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7E7DCEB02F2EDE7500EE70E6 /* xcode-worker-assistantTests */,
-			);
-			name = "xcode-worker-assistantTests";
-			packageProductDependencies = (
-			);
-			productName = "xcode-worker-assistantTests";
-			productReference = 7E7DCEAD2F2EDE7500EE70E6 /* xcode-worker-assistantTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7E7DCEB62F2EDE7500EE70E6 /* xcode-worker-assistantUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7E7DCEC72F2EDE7500EE70E6 /* Build configuration list for PBXNativeTarget "xcode-worker-assistantUITests" */;
-			buildPhases = (
-				7E7DCEB32F2EDE7500EE70E6 /* Sources */,
-				7E7DCEB42F2EDE7500EE70E6 /* Frameworks */,
-				7E7DCEB52F2EDE7500EE70E6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E7DCEB92F2EDE7500EE70E6 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				7E7DCEBA2F2EDE7500EE70E6 /* xcode-worker-assistantUITests */,
-			);
-			name = "xcode-worker-assistantUITests";
-			packageProductDependencies = (
-			);
-			productName = "xcode-worker-assistantUITests";
-			productReference = 7E7DCEB72F2EDE7500EE70E6 /* xcode-worker-assistantUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					7E7DCE9D2F2EDE7400EE70E6 = {
 						CreatedOnToolsVersion = 26.2;
-					};
-					7E7DCEAC2F2EDE7500EE70E6 = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 7E7DCE9D2F2EDE7400EE70E6;
-					};
-					7E7DCEB62F2EDE7500EE70E6 = {
-						CreatedOnToolsVersion = 26.2;
-						TestTargetID = 7E7DCE9D2F2EDE7400EE70E6;
 					};
 				};
 			};
@@ -201,28 +100,12 @@
 			projectRoot = "";
 			targets = (
 				7E7DCE9D2F2EDE7400EE70E6 /* xcode-worker-assistant */,
-				7E7DCEAC2F2EDE7500EE70E6 /* xcode-worker-assistantTests */,
-				7E7DCEB62F2EDE7500EE70E6 /* xcode-worker-assistantUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7E7DCE9C2F2EDE7400EE70E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7DCEAB2F2EDE7500EE70E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7DCEB52F2EDE7500EE70E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E7DCEA92F2EDE7500EE70E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7E7DCEB32F2EDE7500EE70E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7E7DCEAF2F2EDE7500EE70E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7E7DCE9D2F2EDE7400EE70E6 /* xcode-worker-assistant */;
-			targetProxy = 7E7DCEAE2F2EDE7500EE70E6 /* PBXContainerItemProxy */;
-		};
-		7E7DCEB92F2EDE7500EE70E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7E7DCE9D2F2EDE7400EE70E6 /* xcode-worker-assistant */;
-			targetProxy = 7E7DCEB82F2EDE7500EE70E6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7E7DCEBF2F2EDE7500EE70E6 /* Debug */ = {
@@ -473,86 +329,6 @@
 			};
 			name = Release;
 		};
-		7E7DCEC52F2EDE7500EE70E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 775T2YJGJF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "workersamuel.xcode-worker-assistantTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-worker-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-worker-assistant";
-			};
-			name = Debug;
-		};
-		7E7DCEC62F2EDE7500EE70E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 775T2YJGJF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 26.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "workersamuel.xcode-worker-assistantTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode-worker-assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/xcode-worker-assistant";
-			};
-			name = Release;
-		};
-		7E7DCEC82F2EDE7500EE70E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 775T2YJGJF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "workersamuel.xcode-worker-assistantUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "xcode-worker-assistant";
-			};
-			name = Debug;
-		};
-		7E7DCEC92F2EDE7500EE70E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 775T2YJGJF;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "workersamuel.xcode-worker-assistantUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRING_CATALOG_GENERATE_SYMBOLS = NO;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "xcode-worker-assistant";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,24 +346,6 @@
 			buildConfigurations = (
 				7E7DCEC22F2EDE7500EE70E6 /* Debug */,
 				7E7DCEC32F2EDE7500EE70E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E7DCEC42F2EDE7500EE70E6 /* Build configuration list for PBXNativeTarget "xcode-worker-assistantTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E7DCEC52F2EDE7500EE70E6 /* Debug */,
-				7E7DCEC62F2EDE7500EE70E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7E7DCEC72F2EDE7500EE70E6 /* Build configuration list for PBXNativeTarget "xcode-worker-assistantUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7E7DCEC82F2EDE7500EE70E6 /* Debug */,
-				7E7DCEC92F2EDE7500EE70E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
