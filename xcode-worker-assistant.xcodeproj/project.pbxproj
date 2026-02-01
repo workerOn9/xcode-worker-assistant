@@ -86,11 +86,12 @@
 				};
 			};
 			buildConfigurationList = 7E7DCE992F2EDE7400EE70E6 /* Build configuration list for PBXProject "xcode-worker-assistant" */;
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 7E7DCE952F2EDE7400EE70E6;
 			minimizedProjectReferenceProxies = 1;
